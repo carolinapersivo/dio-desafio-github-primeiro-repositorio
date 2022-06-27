@@ -17,8 +17,10 @@ Repositório criado para o desafio de projeto com índice e links de interesse
 #### Curso: Introdução ao Git e Github
 
 - [Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
+- [Download - Typora](https://typora.io/)
 - [Git Documentation](https://git-scm.com/docs/git-help)
 - [GitHub Documentation](https://docs.github.com/pt)
+- [Curso adicional Git/GitHub - Curso em Vídeo](https://www.cursoemvideo.com/curso/curso-de-git-e-github/)
 
 ##### Desafio de projeto - [Criando seu primeiro repositório no GitHub para compartilhar seu progresso](https://github.com/carolinapersivo/dio-desafio-github-primeiro-repositorio)
 
