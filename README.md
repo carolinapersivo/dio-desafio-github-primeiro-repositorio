@@ -24,13 +24,21 @@ Repositório criado para o desafio de projeto com índice e links de interesse
 
 ##### Desafio de projeto - [Criando seu primeiro repositório no GitHub para compartilhar seu progresso](https://github.com/carolinapersivo/dio-desafio-github-primeiro-repositorio)
 
-
-
 ### _Módulo II - Fundamentos Web com HTML e CSS_
 
 #### Curso: Primeiros passos para desenvolvimento web
 
+- [Download - Notepad++](https://notepad-plus-plus.org/downloads/)
+- [JQuery Reference - W3 Schools](https://www.w3schools.com/jquery/jquery_ref_overview.asp)
+- [JQuery User Interface](https://jqueryui.com/)
+
+##### :notebook: Exercício - Criar site em PHP utilizando JQuery
+
 #### Curso: Introdução à criação de sites com HTML5 e CSS3
+
+- [Gerar texto lipsum](https://pt.lipsum.com/feed/html)
+- [Imagens gratuitas - Unsplash](https://unsplash.com/)
+- [Comprimir imagens para salvar espaço - tinypng](https://tinypng.com/)
 
 #### Curso: Posicionando elementos com Flexbox em Css
 

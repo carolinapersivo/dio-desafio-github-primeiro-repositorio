@@ -41,3 +41,53 @@
 - Vlog: Blog/diário em forma de vídeo
 - Pop-up: caixinhas que aparecem ao acessar um site
 - Youtuber: criador de conteúdo para o youtube
+
+### Termos comuns (linguagens)
+
+- 404: erro quando a página não existe
+- Algoritmo: sequência de passos para executar uma tarefa
+- ALT: texto alternativo
+- API (Application Programming Interface): funcionalidades extras ou recortadas de um site em outro
+- Biblioteca/dll: conjunto de ferramentas disponíveis com atuação específica
+- Bootstrap: framework JavaScript
+- Breakpoints: ponto chave na construção de interface, ou pontos de paradas em debbugs
+- Bug/Debug: erro de algoritmo ou de execução/correção de bug
+- Código: instruções feitas em uma linguagem
+- Controle de versão: softwares que controlam versões de desenvolvimento (ex.: Git)
+- Deploy: envio para publicação de partes ou software completo
+- Design adaptativo/responsivo: site adequa-se a diferentes tipos e tamanhos de tela e dispositivo
+- DNS: Domain Name Service
+- Documentação: externa (manual de usuário) e interna (comentários no código)
+- Domínio: hospeda sites (ex.:UOL)
+- DPI: Proporção de pontos na tela
+- Editor de texto: software que armazena caracteres alfanuméricos e símbolos diversos, usado para armazenar códigos (utilizado ao invés ou conjuntamente à IDEs)
+- Estrutura de dados: organização de dados (arrays, listas, matrizes), ou tipo de dados (int, char, float)
+- Favicon: ícone do site
+- Fontes: fontes de letras ou código fonte
+- Framework: "caixa de ferramentas"
+- FTP: forma de comunicação para transferência de arquivos
+- GitHub/SVN/CVS: controladores de versão
+- HTTPS: protocolo web com camada de segurança
+- Linguagem: de programação ou marcação, estrutura sites, aplicativos e programas
+- Meta tags: tags html que ficam dentro do header
+- Método ágil: técnicas de desenvolvimento de software que visam agilidade e qualidade (ex.:SCRUM)
+- Mobile: dispositivos móveis
+- MVC (Model View Controller): arquitetura de software que separa estruturas de dados/front-end/controle ou back-end
+- MVP (Minimal Viable Product): produto mínimo para apresentação ao cliente
+- MySQL: linguagem de banco de dados estruturado
+- Resolução: quantidade de pixels em uma tela
+- Servidor: armazena programas, arquivos, bancos de dados, etc.
+- Sistema operacional (SO): sistema base de computadores (ex.:Windows, Linux)
+- Solução: programa ou conjunto de programas e ferramentas fornecidas ao cliente
+- SSL: camada de segurança de sites
+- UI: interface de usuário
+- UX: experiência do usuário
+- Versão (do software): geralmente o número antes do ponto é referente à grandes mudanças, e o depois referente à pequenas alterações
+- WYSIWYG: "What You See Is What You Get"
+
+#### Pesquisa
+
+- Apache = servidor web mais utilizado, sendo gratuito e com código livre
+  - Utilização mais comum com a linguagem PHP e o banco de dados MySQL
+- MySQL = sistema de gerenciamento de banco de dados estruturado
+- PHP(Hypertext Preprocessor) = linguagem interpretada livre (open source) utilizada comumente no desenvolvimento web

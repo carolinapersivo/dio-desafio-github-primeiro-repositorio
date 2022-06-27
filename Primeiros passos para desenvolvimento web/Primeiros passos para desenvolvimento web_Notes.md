@@ -86,3 +86,58 @@
   - Conexão ponto-a-ponto
     - Classes (potência/distância): 1 (100mW/100m), 2 (2,5mW/10m) e 3 (1mW/1m)
     - Versões: 1.2 (1Mbps), 2.0+EDR (3Mbps), 3.0 (24Mbps), 4.0 (25Mbps), 5.0 (50Mbps)
+
+### Browser, sites, aplicativos e web server
+
+##### Browser
+
+- Necessário um programa que interprete a linguagem de programação (LP), linguagens de marcação e conteúdos multimídia
+  - Atualmente também possuem plug-ins e add-ons
+  - Possuem cache e cookies
+- Páginas estáticas x páginas dinâmicas = mais que apenas visualizar e clicar
+
+##### Site, aplicativo e e-commerce
+
+- Podem ser feitas em diversas LPs, e o HTML está caindo em desuso
+- **Aplicativo** = software executado em um navegador
+  - Atualmente as diferenças de significado estão diminuindo entre sites, aplicativos e programas/softwares
+- **E-commerce** = sites de compra e venda com sistemas de pagamento
+  - Sistema de pagamento pode ser exterior ao site = ex.: PicPay, PayPal, PagSeguro
+
+##### Web-server
+
+- Onde ficam guardados os dados/informações
+- Estáticos x dinâmicos
+  - Estático = servidor físico onde são armazenados arquivos, softwares e bancos de dados (comum ter redundância)
+  - Dinâmico = softwares presentes no servidor físico
+    - Arquivos (file server), aplicações (application server) e/ou banco de dados (database)
+  - **Web-service** = interface disponível para fazer requisições e consultas em bancos de dados inacessíveis (ex.: Correios, Governo)
+
+### O que são Stack?
+
+##### Stacks
+
+- Conjuntos de softwares (sw) necessários/suficientes para executar um aplicativo/programa
+  - Inclui LPs, ambientes e ferramentas de interação com os aplicativos e softwares
+- Importante para entender as possibilidades de desenvolvimento dentro de um projeto
+
+##### Front-end, back-end e fullstack
+
+- **Front-end** = Interface (UI,UX) de sites, aplicativos, web services
+  - HTML, CSS, JQuery/JS/AJAX, PHP, Bootstrap, etc.
+- **Back-end** = Servidores e bancos de dados
+  - MySQL, Oracle, protocolos de comunicação, PHP, Java, node.js
+- **Fullstack** = profissional que trabalha em todas as camadas de desenvolvimento, com domínio de front e back
+
+### LPs e termos
+
+##### Principais linguagens (programação e marcação)
+
+- HTML, CSS, JavaScript (JQuery, AJAX, outras libs), PHP, .NET, ASP, Java, Ruby (on rails), Python, Perl, C/C++/C#
+
+### APLICAÇÃO
+
+
+
+
+
