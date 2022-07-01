@@ -39,12 +39,13 @@ Repositório criado para o desafio de projeto com índice e links de interesse
 - [Gerar texto lipsum](https://pt.lipsum.com/feed/html)
 - [Imagens gratuitas - Unsplash](https://unsplash.com/)
 - [Comprimir imagens para salvar espaço - tinypng](https://tinypng.com/)
+- [CSS Reference - Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 #### Curso: Posicionando elementos com Flexbox em Css
 
+- [Project Flexbox Dio - GitLab (Karen Santos)](https://gitlab.com/karensantos/project-flexbox-dio)
+
 ##### Desafio de projeto - Recriando a página inicial do Instagram
-
-
 
 ### _Módulo III - Dominando a Linguagem de Programação JavaScript_
 
