@@ -80,3 +80,10 @@ O git possui um algoritmo de encriptação (sha1) integrado.
   >
   > Após alterações é necessário "comittar" novamente o repositório
 
+### Outras informações online
+
+#### Comitt modificações e exclusões
+
+- git add -A : manda para stage novos arquivos, modificações e exclusões
+- git add. : manda para stage os novos arquivos
+- git add -u : manda para stage modificações e exclusões
