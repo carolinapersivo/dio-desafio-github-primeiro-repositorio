@@ -3,8 +3,29 @@
     <head>
         <meta charset="utf-8">
         <title>Carolina Persivo</title>
-        <link rel="stylesheet" href="style.css">     
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+        .flex-container{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+        }    
+        .flex-item{
+            height: 50px;
+            min-width: 50px;
+            line-height: 50px;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            margin: 10px;
+        }                
+        </style>     
     </head>
+
+
+
     <body>
         <header>
             <img src="perfil.jpg" width="100" height="100" alt="Foto de perfil" class="photo">
@@ -25,15 +46,21 @@
             </article>
         </section>
         <footer>
-            <ul class="contact">
-                <li>
-                    <a href="mailto:carol_coutinhoo@hotmail.com" target="_blank">Email</a>
+            <ul class="contact flex-container">
+                <li class="flex-item">
+                    <a href="mailto:carol_coutinhoo@hotmail.com" target="_blank">
+                        <img src="mail-logo.png" alt="logo do email" width="45" height="45">
+                    </a>
                 </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/carolina-persivo/" target="_blank">Linkedin</a>
+                <li class="flex-item">
+                    <a href="https://www.linkedin.com/in/carolina-persivo/" target="_blank">
+                        <img src="linkedin-logo.png" alt="logo do linkedin" width="45" height="45">
+                    </a>
                 </li>
-                <li>
-                    <a href="https://github.com/carolinapersivo/" target="_blank">GitHub</a>
+                <li class="flex-item">
+                    <a href="https://github.com/carolinapersivo/" target="_blank">
+                        <img src="github-logo.png" alt="logo do github" width="45" height="45">
+                    </a>
                 </li>
             </ul>
         </footer>
