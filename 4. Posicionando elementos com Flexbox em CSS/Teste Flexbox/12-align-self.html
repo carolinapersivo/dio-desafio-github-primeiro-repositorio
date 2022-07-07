@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align self</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+            margin-bottom: 10px;
+        }
+        .align-container{
+            align-items: center;
+        }
+        .item{
+            background-color: olive;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        .center{
+            align-self: center;
+        }
+        .start{
+            align-self: start;
+        }
+        .end{
+            align-self: end;
+        }
+        .stretch{
+            align-self: stretch;
+        }
+        .baseline{
+            align-self: baseline;
+        }
+        .auto{
+            align-self: auto;
+        }
+        .coluna{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <p>Align-self: auto, com alinhamento do container (center) <br> O auto respeita o alinhamento do container</p>
+    <section class="container align-container">
+        <div class="item auto">123</div>
+        <div class="item auto">AAA</div>
+        <div class="item auto">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+        <div class="item auto">Item 4</div>
+    </section>
+    <p>Align-self: auto, sem alinhamento do container</p>
+    <section class="container">
+        <div class="item auto">123</div>
+        <div class="item auto">AAA</div>
+        <div class="item auto">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+        <div class="item auto">Item 4</div>
+    </section>
+    <p>Align-self: stretch (é padrão), sem alinhamento do container</p>
+    <section class="container">
+        <div class="item stretch">123</div>
+        <div class="item stretch">AAA</div>
+        <div class="item stretch">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+        <div class="item stretch">Item 4</div>
+    </section>
+    <p>Align-self: stretch (é padrão), com alinhamento do container (center) <br> &#10625; O stretch ignora o alinhamento do container</p>
+    <section class="container align-container">
+        <div class="item stretch">123</div>
+        <div class="item stretch">AAA</div>
+        <div class="item stretch">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+        <div class="item stretch">Item 4</div>
+    </section>
+    <p>Misturando stretch auto e end, com alinhamento do container (center)</p>
+    <section class="container align-container">
+        <div class="item stretch">123</div>
+        <div class="item auto">AAA</div>
+        <div class="item auto">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+        <div class="item end">Item 4</div>
+        <div class="item start">Outro item</div>
+    </section>
+
+    <h2>COLUNA</h2>
+    <p>Align-self: auto, com alinhamento do container (center) <br> O auto respeita o alinhamento do container</p>
+    <section class="container align-container coluna">
+        <div class="item auto">123</div>
+        <div class="item auto">AAA</div>
+        <div class="item auto">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+        <div class="item auto">Item 4</div>
+    </section>
+    <p>Align-self: auto, sem alinhamento do container</p>
+    <section class="container coluna">
+        <div class="item auto">123</div>
+        <div class="item auto">AAA</div>
+        <div class="item auto">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+        <div class="item auto">Item 4</div>
+    </section>
+    <p>Align-self: stretch (é padrão), sem alinhamento do container</p>
+    <section class="container coluna">
+        <div class="item stretch">123</div>
+        <div class="item stretch">AAA</div>
+        <div class="item stretch">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+        <div class="item stretch">Item 4</div>
+    </section>
+    <p>Align-self: stretch (é padrão), com alinhamento do container (center) <br> &#10625; O stretch ignora o alinhamento do container</p>
+    <section class="container align-container coluna">
+        <div class="item stretch">123</div>
+        <div class="item stretch">AAA</div>
+        <div class="item stretch">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+        <div class="item stretch">Item 4</div>
+    </section>
+    <p>Misturando stretch auto e end, com alinhamento do container (center)</p>
+    <section class="container align-container coluna">
+        <div class="item stretch">123</div>
+        <div class="item auto">AAA</div>
+        <div class="item auto">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+        <div class="item end">Item 4</div>
+        <div class="item start">Outro item</div>
+    </section>
+</body>
+</html>

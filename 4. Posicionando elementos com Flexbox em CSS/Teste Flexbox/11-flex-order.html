@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex order</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+        .item{
+            flex: 1;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            margin: 5px;
+        }
+        .o1{
+            order: 1;
+        }
+        .o2{
+            order: 2;
+        }
+        .o3{
+            order: 3;
+        }
+        .o4{
+            order: 4;
+        }
+        .coluna{
+            flex-direction: column;
+        }
+        .o-1{
+            order: -1;
+        }
+    </style>
+</head>
+<body>
+    <p>Padrão do order é 0!</p>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+    <p>Se alterarmos o valor dos orders teremos algo do tipo:</p>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item o2">3</div>
+        <div class="item o2">4</div>
+        <div class="item o3">5</div>
+        <div class="item o1">6</div>
+    </div>
+    <p>Observações: é preciso usar um comparativo, como o padrão é 0, os elementos sem order definida terão prioridade (0 é menor que 1). Caso dois elementos tenham o mesmo valor de order, o que aparece primeiro no código tem prioridade</p>
+    <p><br>Também conseguimos fazer isso em coluna!</p>
+    <p>Padrão do order é 0!</p>
+    <div class="container coluna">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+    <p>Se alterarmos o valor dos orders teremos algo do tipo:</p>
+    <div class="container coluna">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item o2">3</div>
+        <div class="item o2">4</div>
+        <div class="item o3">5</div>
+        <div class="item o1">6</div>
+    </div>
+    <p>Também podemos utilizar valores negativos. O item 6 com oreder -1 é enviado para antes dos itens com order 0</p>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item o-1">6</div>
+    </div>
+</body>
+</html>

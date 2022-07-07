@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - flex</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 400px;
+        }
+        .item{
+            background-color: orangered;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        .flex-1{
+            flex: 1;
+            /* grow=1, shrink=1 e basis=0
+                    basis=0 -> sem quebra de linha*/
+        }
+        .largura{
+            width: 200px;
+            /* min-width: 200px; */
+        }
+        .flex-2{
+            flex: 2;
+            /* grow=2, shrink=1 e basis=0
+                    basis=0 -> sem quebra de linha*/
+        }
+    </style>
+</head>
+<body>
+    <h4>Flex:1</h4>
+    <h5>basis=0 -> width ignorado</h5>
+    <div class="container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-1">BBB</div>
+        <div class="item flex-1">CC</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-1">EF</div>
+    </div> 
+    <h4>Flex:mix</h4>
+    <div class="container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-2">BBB</div>
+        <div class="item flex-2">CC</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-1">EF</div>
+    </div> 
+    <h4>Flex:1 + min-width:200px</h4>
+    <h5>Ignora se for só width e tenta atender quando é min-width</h5>
+    <div class="container">
+        <div class="item flex-1 largura">CC</div>
+        <div class="item flex-1 largura">D</div>
+        <div class="item flex-1 largura">EF</div>
+        <div class="item flex-1 largura">A</div>
+        <div class="item flex-1 largura">BBB</div>
+    </div>
+</body>
+</html>

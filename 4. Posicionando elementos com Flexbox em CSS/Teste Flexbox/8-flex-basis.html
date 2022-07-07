@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex basis</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 500px;
+        }
+        .item{
+            background-color: green;
+            color: white;
+            margin: 5px;
+            text-align: center;
+        }
+        .auto{
+            flex-basis: auto;
+        }
+        .zero{
+            flex-basis: 0;
+        }
+        .valor{
+            flex-basis: 100px;
+        }
+        .w-50{
+            flex-basis: 50px;
+        }
+        .w-150{
+            flex-basis: 150px;
+        }
+
+        .grow-1{
+            flex-grow: 1;
+        }
+        .grow-2{
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <h4>Auto + flex-grow:1 = toma todo o espaço do container</h4>
+    <div class="container">
+        <div class="item auto grow-1">A</div>
+        <div class="item auto grow-1">BBB</div>
+        <div class="item auto grow-1">C</div>
+        <div class="item auto grow-1">DEF</div>
+    </div>
+    <h4>Auto + flex-grow:1 (último com flex-grow:2) = toma todo o espaço do container e o <ins>espaço que sobra do último item é duas vezes maior que os outros</ins></h4>
+    <div class="container">
+        <div class="item auto grow-1">A</div>
+        <div class="item auto grow-1">BBB</div>
+        <div class="item auto grow-1">C</div>
+        <div class="item auto grow-2">DEF</div>
+    </div>
+    <h4>Basis 0 e grow 1 = não há proporcionalidade quanto ao tamanho do conteúdo caso haja espaço sobrando</h4>
+    <div class="container">
+        <div class="item zero grow-1">A</div>
+        <div class="item zero grow-1">BBB</div>
+        <div class="item zero grow-1">C</div>
+        <div class="item zero grow-1">DEF</div>
+    </div>
+    <h5> &#10153; Nesse caso o item 2 é muito maior, mas os outros ainda são proporcionais</h5>
+    <div class="container">
+        <div class="item zero grow-1">A</div>
+        <div class="item zero grow-1">BBBBBBBBB</div>
+        <div class="item zero grow-1">C</div>
+        <div class="item zero grow-1">DEF</div>
+    </div>
+    <h4>Basis com valores exato sem grow</h4>
+    <div class="container">
+        <div class="item w-50">A</div>
+        <div class="item w-150">BBB</div>
+        <div class="item w-50">C</div>
+        <div class="item w-50">DEF</div>
+    </div>
+    <h4>Basis com valores exato e grow</h4>
+    <div class="container">
+        <div class="item w-50 grow-1">A</div>
+        <div class="item w-150 grow-1">BBB</div>
+        <div class="item w-50 grow-1">C</div>
+        <div class="item w-50 grow-1">DEF</div>
+    </div>
+</body>
+</html>

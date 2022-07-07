@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - flex shrink</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+        }
+        .item{
+            background-color: blueviolet;
+            color: white;
+            margin: 5px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .shrink-0{
+            flex-shrink: 0;
+            flex-basis: 100px;
+        }
+        .shrink-1{
+            flex-shrink: 1;
+        }
+        .shrink-2{
+            flex-shrink: 2;
+        }
+        .shrink-3{
+            flex-shrink: 3;
+        }
+        .grow-1{
+            flex-grow: 1;
+        }
+        .basis{
+            flex-basis: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h4>Shrink:1 e Grow:1 - conteúdos semelhantes</h4>
+    <div class="container">
+        <div class="item shrink-1 grow-1">A</div>
+        <div class="item shrink-1 grow-1">B</div>
+        <div class="item shrink-1 grow-1">C</div>
+        <div class="item shrink-1 grow-1">D</div>
+        <div class="item shrink-1 grow-1">E</div>
+    </div>
+    <h4>Shrink:1 e Grow:1 - conteúdos diferentes</h4>
+    <div class="container">
+        <div class="item shrink-1 grow-1">A</div>
+        <div class="item shrink-1 grow-1">Lorem ipsum dolor</div>
+        <div class="item shrink-1 grow-1">C dolor</div>
+        <div class="item shrink-1 grow-1">D</div>
+    </div>
+    <h4>Shrink:0 e basis:100px - conteúdos diferentes</h4>
+    <h5>O shrink em 0 impede a compressão</h5>
+    <div class="container">
+        <div class="item shrink-0 grow-1 basis">A</div>
+        <div class="item shrink-0 grow-1 basis">Lorem ipsum dolor</div>
+        <div class="item shrink-0 grow-1 basis">C dolor</div>
+        <div class="item shrink-0 grow-1 basis">D</div>
+    </div>
+    <h4>Shrink:mix e basis:100px - conteúdos diferentes</h4>
+    <div class="container">
+        <div class="item shrink-1 grow-1 basis">A</div>
+        <div class="item shrink-2 grow-1 basis">Lorem ipsum dolor</div>
+        <div class="item shrink-2 grow-1 basis">C dolor</div>
+        <div class="item shrink-3 grow-1 basis">D</div>
+    </div>
+</body>
+</html>

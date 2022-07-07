@@ -40,10 +40,14 @@ Repositório criado para o desafio de projeto com índice e links de interesse
 - [Imagens gratuitas - Unsplash](https://unsplash.com/)
 - [Comprimir imagens para salvar espaço - tinypng](https://tinypng.com/)
 - [CSS Reference - Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Tabela de caracteres e emoticons - HTML e CSS](https://unicode-table.com/pt/)
 
 #### Curso: Posicionando elementos com Flexbox em Css
 
 - [Project Flexbox Dio - GitLab (Karen Santos)](https://gitlab.com/karensantos/project-flexbox-dio)
+- [Flexbox Reference - W3 Schools](https://www.w3schools.com/css/css3_flexbox.asp)
+- [Artigo - Understanding flex-grow, flex-shrink, and flex-basis](https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/)
+- [Atalhos sublime - VS Code](http://leia.aprendendosublimetext.com/principais-atalhos.html)
 
 ##### Desafio de projeto - Recriando a página inicial do Instagram
 
