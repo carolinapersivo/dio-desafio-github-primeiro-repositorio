@@ -48,8 +48,13 @@ Repositório criado para o desafio de projeto com índice e links de interesse
 - [Flexbox Reference - W3 Schools](https://www.w3schools.com/css/css3_flexbox.asp)
 - [Artigo - Understanding flex-grow, flex-shrink, and flex-basis](https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/)
 - [Atalhos sublime - VS Code](http://leia.aprendendosublimetext.com/principais-atalhos.html)
+- [Jogo para treino de Flexbox - Flexbox Froggy](https://flexboxfroggy.com/)
+- [Gabriela Pinheiro - Youtube (Front-end na Uber)]([Gabriela Pinheiro](https://www.youtube.com/c/GabrielaPinheiro))
+- [Codepip - Learn code playing games](https://codepip.com/)
 
 ##### Desafio de projeto - Recriando a página inicial do Instagram
+
+
 
 ### _Módulo III - Dominando a Linguagem de Programação JavaScript_
 
