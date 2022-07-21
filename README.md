@@ -54,15 +54,25 @@ Repositório criado para o desafio de projeto com índice e links de interesse
 
 ##### Desafio de projeto - Recriando a página inicial do Instagram
 
-
-
 ### _Módulo III - Dominando a Linguagem de Programação JavaScript_
 
 #### Curso: IDE - Instalação e configuração (Visual Studio Code)
 
 #### Curso: Introdução ao JavaScript
 
+- [HTML DOM - Propriedades e Métodos - W3 Schools](https://www.w3schools.com/jsref/dom_obj_document.asp)
+
 #### Curso: Sintaxe Básica em JavaScript
+- [Glossário JavaScript - MDN](https://developer.mozilla.org/pt-BR/docs/Glossary/JavaScript)
+- [Descrição JavaScript - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+- [Tipagem Dinâmica - Dan Vitoriano](https://danvitoriano.medium.com/tipagem-din%C3%A2mica-no-javascript-e3551a445b38)
+- [Sintaxe e tipos - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types)
+- [Escopo em JavaScript - iMasters](https://imasters.com.br/desenvolvimento/escopos-em-javascript)
+- [Expressões e Ooperadores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operador_atribuicao)
+- [Handy Tips on Using console.log()](https://dmitripavlutin.com/console-log-tips/)
+- [Array - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Trabalhando com objetos - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
+- [Entendendo as sintaxes de desestruturação, parâmetros rest e espalhamento em JavaScript](https://www.digitalocean.com/community/tutorials/understanding-destructuring-rest-parameters-and-spread-syntax-in-javascript-pt)
 
 #### Curso: Sintaxe e operadores
 
