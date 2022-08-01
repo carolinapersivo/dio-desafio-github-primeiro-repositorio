@@ -112,4 +112,158 @@
     var {cor,tamanho, funcao} = xicara;
     ```
     
+
+### Estruturas Condicionais
+
+- Instruções para realizar determinadas tarefas a partir de uma condição (decisão ou repetição)
+
+#### IF
+
+- ```js
+  if (jogador1 != -1){
+      if (jogador1 > 0) {
+          console.log('jogador 1 marcou ponto!');
+      } else if (jogador2 > 0) {
+          console.log('jogador 2 marcou ponto!');
+      } else{
+          console.log('ninguém marcou ponto');
+      }
+  } 
+  //ninho de IF
+  ```
+
+##### If ternário
+
+- ```js
+  jogador1 > 0 ? console.log('Marcou ponto'):console.log('Não marcou ponto');
+  ```
+
+#### Switch/case
+
+- ```js
+  switch (placar) {
+      case placar = jogador1 > jogador2:
+          console.log('jogador 1  ganhou!');
+          break;
+      case placar = jogador2 > jogador1:
+          console.log('jogador 2 ganhou!');
+          break;
+      default:
+          console.log('empatou!')
+  }
+  ```
+
+### Estruturas de repetição
+
+- For,   For/in,   For/of,   While,   Do/while
+
+  - For: repetição até a condição ser falsa:
+
+    ```js
+    var array = ['valor1', 'valor2','valor3','valor4'];
+    
+    for(let i=0; i<array.length; i++){
+        console.log(i);
+    }
+    ```
+
+  - For/in: repetição a partir de uma propriedade:
+
+    ```js
+    var array = ['valor1', 'valor2','valor3','valor4'];
+    
+    for (i in array){
+        console.log(i);
+    }
+    ```
+
+  - For/of: repetição a partir de um valor
+
+    ```js
+    var array = ['valor1', 'valor2','valor3','valor4'];
+    
+    for (i of array){
+        console.log(i);
+    }
+    ```
+
+    > Não funciona com objetos pois as propriedades variam, diferente do índice em um array que sempre serão números inteiros.
+    >
+    > Podemos forçar um:
+    >
+    > ```js
+    > for (i of object.propriedade){
+    >     console.log(i);
+    > }
+    > ```
+    >
+    > Cada caractere dentro do valor será  impresso em linhas separadas
+
+  - While: executa instrução enquanto condição for verdadeira, sendo a verificação feita antes da execução:
+
+    ```js
+    var a = 0;
+    while (a < 10){
+        a++;
+        console.log(a);
+    }
+    ```
+
+  - Do/while: executa instrução até que determinada condição seja falsa, sendo a verificação feita depois da execução:
+
+    ```js
+    var a = 0;
+    do{
+        a++;
+        console.log(a);
+    } while (a<10);
+    ```
+
+
+### Funções
+
+- Blocos de comando e instruções para a execução de tarefas
+
+  - ```js
+    function nomeDaFuncao(){
+        ${instrucao};
+    }
+    nomeDaFuncao();
+    ```
+
+    - {} - bloco de instrução
+
+    - () - Objeto do tipo function
+
+      > Podemos declarar parâmetros dentro dos parênteses, que servem de variáveis, onde sua atribuição  pode ser feita durante a chamada da função. 
+
+#### Funções declarativas
+
+- São as mais comuns, declaradas com a palavra reservada function, seguida de um nome de função (obrigatório), parênteses e chaves.
+
+#### Funções de expressão
+
+- Funções atribuídas à expressões. A nomeação da função é opcional.
+
+  ```js
+  var funcao = function (){
+      console.log('Função de expressão sem nome');
+  }
+  funcao();
+  ```
+
+  
+
+#### Arrow function
+
+- Funções de expressão de sintaxe curta. São sempre anônimas e portanto não podem ser nomeadas.
+
+  - Declaradas por parênteses, seguidos por **=>** e depois de chaves
+
+    ```js
+    var funcao = () => {
+        ${instrucao};
+    }
+    ```
+
     

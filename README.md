@@ -68,15 +68,20 @@ Repositório criado para o desafio de projeto com índice e links de interesse
 - [Tipagem Dinâmica - Dan Vitoriano](https://danvitoriano.medium.com/tipagem-din%C3%A2mica-no-javascript-e3551a445b38)
 - [Sintaxe e tipos - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types)
 - [Escopo em JavaScript - iMasters](https://imasters.com.br/desenvolvimento/escopos-em-javascript)
-- [Expressões e Ooperadores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operador_atribuicao)
+- [Expressões e Operadores - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operador_atribuicao)
 - [Handy Tips on Using console.log()](https://dmitripavlutin.com/console-log-tips/)
 - [Array - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Trabalhando com objetos - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
 - [Entendendo as sintaxes de desestruturação, parâmetros rest e espalhamento em JavaScript](https://www.digitalocean.com/community/tutorials/understanding-destructuring-rest-parameters-and-spread-syntax-in-javascript-pt)
+- [Estruturas Condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
+- [Laços de repetição - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 #### Curso: Sintaxe e operadores
 
 #### Curso: Variáveis e tipos
+
+- [Pílulas de JavaScript: var, let e const - Medium](https://medium.com/larimaza-pt/p%C3%ADlulas-de-javascript-var-let-e-const-7970a853da13)
+- [Entenda a diferença entre var, let e const no JavaScript - Alura](https://www.alura.com.br/artigos/entenda-diferenca-entre-var-let-e-const-no-javascript)
 
 #### Curso: Funções
 
